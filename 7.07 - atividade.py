@@ -15,6 +15,9 @@ match Forma_de_Pagamento:
         print (f"total a pagar ={valor_do_produto - Total_com_desconto_de_10}")
     case 2:
         parcelas = int(input("Informe o número de parcelas entre 1 a 6 que deseja pagar: "))
+                if parcelas > 6:
+            print("Quantidade invalida")
+            exit() # Fim do programa
         parcelado = valor_do_produto / parcelas
         print (f"Valor do produto: {valor_do_produto}")
         print (f"Forma de pagamento: à prazo")
