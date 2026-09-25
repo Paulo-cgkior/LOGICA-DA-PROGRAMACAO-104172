@@ -1,9 +1,9 @@
 import os
 os.system("cls")
 
-soma = 0
+SOMA = 0
 
 for i in range(4):
-    soma += int(input("Digite sua nota: "))
+    SOMA += int(input("Digite sua nota: "))
 
-print(soma / 4)
+print(SOMA / 4)
