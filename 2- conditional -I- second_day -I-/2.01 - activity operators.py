@@ -1,5 +1,5 @@
-import os 
- #Limpo o terminal
+import os
+#Limpo o terminal
 os.system("cls")
     
 # Entrada.
