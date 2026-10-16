@@ -14,6 +14,6 @@ elif media >= 5:
 else:
     print("reprovado")
     
-print(f"\n nota escolhida: {nota}")   
-print(f"sua média foi: {media}") 
+print(f"\n nota escolhida: {nota}")
+print(f"sua média foi: {media}")
     
