@@ -9,7 +9,7 @@ while True:
   os.system("cls")
 
   #menu do programa.
-  print(""" === Mercadin)
+  print(""" === Mercado ===)
 1 -Cadastrar produtos
 2 - Listar produtos
 0 - Sair
