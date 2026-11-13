@@ -3,9 +3,9 @@ os.system("cls")
 
 def logo_senai():
     os.system("cls")
-    print("===============")
+    print("==========")
     print("    SENAI")
-    print("===============")
+    print("==========")
 
 # função sem retorno e com parâmetros
 def mostrar_dados(nome, idade):
